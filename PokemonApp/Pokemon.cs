@@ -13,7 +13,7 @@ namespace PokemonApp{
         public int damage {get;set;}
 
         //Static field - every pokemon shares this field and it's value
-        public static string isPokemon = "This is a static field. We've been through this, I'm in fact a pokemon.";
+        public static string isPokemon = "I am a pokemon";
         
         //Constructor - method used for object initialization. We pass it the values we want 
         //to set for the object we are creating.
@@ -46,7 +46,7 @@ namespace PokemonApp{
 
         //Static method - belongs to the class itself
         public static void PrintMessage(){
-            Console.WriteLine("This is a static method, and I am a pokemon.");
+            Console.WriteLine("I am a pokemon.");
         }
 
         //Method Overriding - ToString()

@@ -10,7 +10,7 @@ namespace Program{
         static void Main(string[] args)
         {
             //Initializing an object
-            //We call the constructor, and pass it the desired values for this object
+            //Calling the constructor, and pass it the desired values for this object
             //                             Name , Dex# , Type, Health, Damage, Ability
             Pokemon pikachu = new Pokemon("Pikachu", 1, "Electric", 12, 2, "Static");
             Pokemon charizard = new Pokemon("Charizard", 2, "Fire", 20, 3, "Blaze");
